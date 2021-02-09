@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.jess.schollinvent.common.component.HeaderView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:title="각종 양식" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="생활속의 불편함을 찾아서!"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt_2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:text="발명탐구일지"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="아이디어\n발전일지"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt_4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:text="작품제작일지"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="특허정보\n검색일지"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

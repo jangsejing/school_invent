@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.jess.schollinvent.common.component.HeaderView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:title="아이디어 구체화" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_sketch"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="아이디어 구체화\n(스케치)"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt_design"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:text="아이디어 구체화\n(구상도)"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_make"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="아이디어 구체화\n(제작)"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
